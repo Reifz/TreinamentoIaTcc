@@ -1,4 +1,4 @@
-# Treinamento da IA — MobileNetV2
+# Treinamento da IA com MobileNetV2
 
 Código de treinamento do modelo de classificação de doenças em folhas de
 tomateiro desenvolvido para o TCC **Sistema Inteligente de Monitoramento
@@ -60,10 +60,6 @@ dataset/
     <as mesmas dez classes>/
 ```
 
-Formatos aceitos: `.jpg`, `.jpeg`, `.png`, `.bmp` e `.webp`. Um diretório
-opcional `external_test/` também pode ser avaliado quando estiver organizado
-pelas mesmas classes.
-
 ## Treinador principal
 
 Valide o dataset sem iniciar o treinamento:
@@ -90,19 +86,6 @@ python .\codigo\treinamento\treinar_modelo_tomate.py `
   --require-gpu `
   --export-h5
 ```
-
-Parâmetros disponíveis:
-
-- `--dataset`: raiz com `train`, `val` e `test`; padrão `dataset/`;
-- `--batch`: tamanho do lote; padrão `32`;
-- `--epochs-head`: épocas do cabeçalho classificador; padrão `20`;
-- `--epochs-fine1`: épocas do primeiro ajuste fino; padrão `25`;
-- `--epochs-fine2`: épocas do segundo ajuste fino; padrão `15`;
-- `--check-only`: apenas valida o dataset;
-- `--require-gpu`: interrompe se não houver GPU;
-- `--output-dir`: define o diretório exato da execução;
-- `--export-h5`: exporta também o formato H5 legado.
-
 ## Treinador de dataset
 
 O segundo comando executa diretamente o pipeline de treinamento:
@@ -113,19 +96,6 @@ python .\codigo\treinamento\treinar_modelo_tomate_dataset.py
 
 Ele aceita `--dataset`, `--batch`, `--epochs_head`, `--epochs_fine1` e
 `--epochs_fine2`. Use `--help` para consultar os detalhes.
-
-## Configuração técnica
-
-- seed `42` e imagens `224 × 224`;
-- MobileNetV2 com pesos ImageNet e `alpha=1.0`;
-- aumento horizontal, rotação, zoom, translação, contraste e brilho quando
-  disponível;
-- cabeçalho com pooling global, BatchNorm, dropout e camada densa de 256
-  unidades;
-- taxas de aprendizado `1e-3`, `1e-5` e `3e-6` nas três fases;
-- ajuste fino a partir das camadas 100 e 70, mantendo BatchNorm congelada;
-- pesos de classes balanceados, early stopping, redução da taxa de
-  aprendizado e checkpoints por fase.
 
 ## Arquivos gerados
 
