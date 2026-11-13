@@ -1,0 +1,78 @@
+# Este repositório publica somente os arquivos explicitamente liberados abaixo.
+*
+
+!/.gitignore
+!/README.md
+!/requirements.txt
+!/requirements-gpu.txt
+!/codigo/
+!/codigo/treinamento/
+!/codigo/treinamento/treinar_modelo_tomate.py
+!/codigo/treinamento/treinar_modelo_tomate_dataset.py
+!/dataset/
+!/dataset/train/
+!/dataset/val/
+!/dataset/test/
+
+!/dataset/train/Tomato___Bacterial_spot/
+!/dataset/train/Tomato___Bacterial_spot/.gitkeep
+!/dataset/train/Tomato___Early_blight/
+!/dataset/train/Tomato___Early_blight/.gitkeep
+!/dataset/train/Tomato___healthy/
+!/dataset/train/Tomato___healthy/.gitkeep
+!/dataset/train/Tomato___Late_blight/
+!/dataset/train/Tomato___Late_blight/.gitkeep
+!/dataset/train/Tomato___Leaf_Mold/
+!/dataset/train/Tomato___Leaf_Mold/.gitkeep
+!/dataset/train/Tomato___Septoria_leaf_spot/
+!/dataset/train/Tomato___Septoria_leaf_spot/.gitkeep
+!/dataset/train/Tomato___Spider_mites Two-spotted_spider_mite/
+!/dataset/train/Tomato___Spider_mites Two-spotted_spider_mite/.gitkeep
+!/dataset/train/Tomato___Target_Spot/
+!/dataset/train/Tomato___Target_Spot/.gitkeep
+!/dataset/train/Tomato___Tomato_mosaic_virus/
+!/dataset/train/Tomato___Tomato_mosaic_virus/.gitkeep
+!/dataset/train/Tomato___Tomato_Yellow_Leaf_Curl_Virus/
+!/dataset/train/Tomato___Tomato_Yellow_Leaf_Curl_Virus/.gitkeep
+
+!/dataset/val/Tomato___Bacterial_spot/
+!/dataset/val/Tomato___Bacterial_spot/.gitkeep
+!/dataset/val/Tomato___Early_blight/
+!/dataset/val/Tomato___Early_blight/.gitkeep
+!/dataset/val/Tomato___healthy/
+!/dataset/val/Tomato___healthy/.gitkeep
+!/dataset/val/Tomato___Late_blight/
+!/dataset/val/Tomato___Late_blight/.gitkeep
+!/dataset/val/Tomato___Leaf_Mold/
+!/dataset/val/Tomato___Leaf_Mold/.gitkeep
+!/dataset/val/Tomato___Septoria_leaf_spot/
+!/dataset/val/Tomato___Septoria_leaf_spot/.gitkeep
+!/dataset/val/Tomato___Spider_mites Two-spotted_spider_mite/
+!/dataset/val/Tomato___Spider_mites Two-spotted_spider_mite/.gitkeep
+!/dataset/val/Tomato___Target_Spot/
+!/dataset/val/Tomato___Target_Spot/.gitkeep
+!/dataset/val/Tomato___Tomato_mosaic_virus/
+!/dataset/val/Tomato___Tomato_mosaic_virus/.gitkeep
+!/dataset/val/Tomato___Tomato_Yellow_Leaf_Curl_Virus/
+!/dataset/val/Tomato___Tomato_Yellow_Leaf_Curl_Virus/.gitkeep
+
+!/dataset/test/Tomato___Bacterial_spot/
+!/dataset/test/Tomato___Bacterial_spot/.gitkeep
+!/dataset/test/Tomato___Early_blight/
+!/dataset/test/Tomato___Early_blight/.gitkeep
+!/dataset/test/Tomato___healthy/
+!/dataset/test/Tomato___healthy/.gitkeep
+!/dataset/test/Tomato___Late_blight/
+!/dataset/test/Tomato___Late_blight/.gitkeep
+!/dataset/test/Tomato___Leaf_Mold/
+!/dataset/test/Tomato___Leaf_Mold/.gitkeep
+!/dataset/test/Tomato___Septoria_leaf_spot/
+!/dataset/test/Tomato___Septoria_leaf_spot/.gitkeep
+!/dataset/test/Tomato___Spider_mites Two-spotted_spider_mite/
+!/dataset/test/Tomato___Spider_mites Two-spotted_spider_mite/.gitkeep
+!/dataset/test/Tomato___Target_Spot/
+!/dataset/test/Tomato___Target_Spot/.gitkeep
+!/dataset/test/Tomato___Tomato_mosaic_virus/
+!/dataset/test/Tomato___Tomato_mosaic_virus/.gitkeep
+!/dataset/test/Tomato___Tomato_Yellow_Leaf_Curl_Virus/
+!/dataset/test/Tomato___Tomato_Yellow_Leaf_Curl_Virus/.gitkeep
